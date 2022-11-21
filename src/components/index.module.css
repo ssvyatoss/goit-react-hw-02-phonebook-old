@@ -1,0 +1,76 @@
+.mainForm {
+  margin-left: 5px;
+}
+
+.mainFormTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.nameField {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.nameField__title {
+  margin-bottom: 10px;
+}
+
+.numberField {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.addButton {
+  width: 100px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.addButton:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.searhingForm {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.formBox {
+  list-style: square;
+  padding-left: 30px;
+}
+
+.todoList__item {
+  margin-bottom: 3px;
+}
+
+.todoList__deleteButton {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.todoList__deleteButton:focus {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.searchingTitle {
+  margin-bottom: 5px;
+}/*# sourceMappingURL=index.module.css.map */
